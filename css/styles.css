@@ -21,9 +21,9 @@ GENERAL CLASSES
 .page{width:960px; overflow:hidden; margin:0 auto;}
 .wrap{ overflow:hidden;}
 .box{ width:460px; float:left; margin-bottom:40px;}
-.button{ background:url(../images/button.png) no-repeat; width:80px; height:30px; text-align:center; margin-top:20px;}
+.button{ background:url(../images/button.png) no-repeat; width:150px; height:30px; text-align:center; margin-top:20px;}
 .button:hover{ background:url(../images/button-hover.png) no-repeat;}
-.button a{ line-height:30px; color:#ffffff; text-decoration:none;}
+.button a{ line-height:30px; color:#ffffff; text-decoration:none; margin-left:-20px;}
 .button a:hover{ color:#ffffff;}
 /*-------------------------------------------------
 HEADER CLASSES
@@ -35,7 +35,7 @@ HEADER CLASSES
 PANEL CLASSES
 -------------------------------------------------*/
 
-.panel{overflow:hidden; background: url(../images/bg3.jpg); padding:30px;}
+.panel{overflow:hidden; background: url(../images/bg3.jpg); padding:30px; margin-bottom:50px;}
 .title{ margin-bottom:20px; margin-top:15px;}
 .content p{ padding-bottom:10px;}
 .content img{margin-right:30px; float:left;}
@@ -87,7 +87,7 @@ CONTACT CLASSES
 .enquiry-form label{display: block; margin-top:20px;}
 .enquiry-form .input_text{ width:900px; height:40px; background:url(../images/bg3.jpg); text-indent:5px; border:none; color:#a5a5a6; font-family: 'Rokkitt', serif; font-size:17px;}
 .enquiry-form .message{ width:900px; height:150px; background:url(../images/bg3.jpg); text-indent:5px; border:none; color:#a5a5a6; font-family: 'Rokkitt', serif; font-size:17px;}
-.enquiry-form .button{ border:none; background:url(../images/button.png) no-repeat; width:80px; height:30px; text-align:center; margin-top:30px; font-family: 'Rokkitt', serif; font-size:17px; color:#fff; padding-right:10px;}
+.enquiry-form .button{ border:none; background:url(../images/button.png) no-repeat; width:150px; height:30px; text-align:center; margin-top:30px; font-family: 'Rokkitt', serif; font-size:17px; color:#fff; padding-right:10px;}
 
 /*-------------------------------------------------
 PORTFOLIO CLASSES
