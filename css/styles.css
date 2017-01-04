@@ -1,5 +1,5 @@
 /*-------------------------------------------------
-GLOBALS CLASSES 
+GLOBALS CLASSES
 -------------------------------------------------*/
 *{padding:0; margin:0;}
 body{font-family: 'Rokkitt', serif; font-size:17px; background:#e7e2cf; color:#858175;}
@@ -93,7 +93,7 @@ CONTACT CLASSES
 PORTFOLIO CLASSES
 -------------------------------------------------*/
 .portfolio-content{ width:960px; margin:0 auto;overflow:hidden; }
-.portfolio-categ{text-align:left; margin:0px 0px 30px 0px; 
+.portfolio-categ{text-align:left; margin:0px 0px 30px 0px;
 font-size:20px; font-weight:normal;  background:url(../images/portfolio-categbg.png) no-repeat; line-height:50px; padding-left:35px; width:700px; color:#fff; font-family: 'Rokkitt', serif; }
 .portfolio-categ li{display:inline;margin-right:10px;}
 .image-block{ display:block;position: relative;}
@@ -124,6 +124,6 @@ FOOTER CLASSES
 
 .copyright-wrap{ overflow:hidden;}
 .copyright{width:960px; margin:0 auto; padding-top:40px; padding-bottom:20px;}
-.copyright .content p{ color:#b94d32; font-size:17px;}
+.copyright .content p{ text-align: center; color:#b94d32; font-size:17px;}
 .copyright .content p a.link{ text-decoration:none; color:#b94d32;}
 .copyright .content p a.link:hover{color:#385074;}
