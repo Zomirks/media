@@ -529,45 +529,60 @@ FOOTER CLASSES
 /*-------------------------------------------------
 STARS NOTES
 -------------------------------------------------*/
+
 .notation {
-  display: flex;
-  flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-around;
 }
 
-.notation p {
-  line-height: 30px;
-  margin: 2px 10px 0px 0px;
+.noteMaximale, .noteMoyenne, .notationVisiteur {
+    display: flex;
+    flex-direction: row-reverse;
 }
-form .stars {
+
+.noteMaximale p, .noteMoyenne p, .notationVisiteur p {
+    line-height: 30px;
+    margin: 2px 10px 0px 0px;
+}
+
+.noteMaxStars, .noteMoyenneStars, form .stars {
     background: url("../images/stars.png") repeat-x 0 0;
     width: 150px;
     margin: 0 auto;
 }
 
-.ie7 form .stars {
+.noteMaxStars, .noteMoyenneStars, .ie7 form .stars {
     *zoom: 1;
 }
 
-form .stars:before, form .stars:after {
+.noteMaxStars:before, .noteMaxStars:after, .noteMoyenneStars:before, .noteMoyenneStars:after, form .stars:before, form .stars:after {
     display: table;
     content: "";
 }
 
-form .stars:after {
+.noteMaxStars:after, .noteMoyenneStars:after, form .stars:after {
     clear: both;
 }
 
-form .stars input[type="radio"] {
+.noteMaxStars input[type="radio"], .noteMoyenneStars input[type="radio"], form .stars input[type="radio"] {
     position: absolute;
     opacity: 0;
     filter: alpha(opacity=0);
 }
 
-form .stars input[type="radio"].star-5:checked~span {
+.noteMaxStars input[type="radio"].star-1:checked~span, .noteMaxStars input[type="radio"].star-2:checked~span, .noteMaxStars input[type="radio"].star-3:checked~span, .noteMaxStars input[type="radio"].star-4:checked~span {
     width: 100%;
 }
 
-form .stars input[type="radio"].star-4:checked~span {
+.noteMoyenneStars input[type="radio"].star-1:checked~span, .noteMoyenneStars input[type="radio"].star-2:checked~span, .noteMoyenneStars input[type="radio"].star-3:checked~span, .noteMoyenneStars input[type="radio"].star-5:checked~span {
+    width: 80%;
+}
+
+.noteMaxStars input[type="radio"].star-5:checked~span, form .stars input[type="radio"].star-5:checked~span {
+    width: 100%;
+}
+
+.noteMoyenneStars input[type="radio"].star-4:checked~span, form .stars input[type="radio"].star-4:checked~span {
     width: 80%;
 }
 
@@ -583,7 +598,7 @@ form .stars input[type="radio"].star-1:checked~span {
     width: 20%;
 }
 
-form .stars label {
+.noteMaxStars label, .noteMoyenneStars label, form .stars label {
     display: block;
     width: 30px;
     height: 30px;
@@ -621,7 +636,7 @@ form .stars label.star-1:hover~span {
     width: 20% !important;
 }
 
-form .stars span {
+.noteMaxStars span, .noteMoyenneStars span, form .stars span {
     display: block;
     width: 0;
     position: relative;
