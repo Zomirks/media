@@ -669,3 +669,9 @@ form .stars label.star-1:hover~span {
     -o-transition: -o-width 0.5s;
     transition: width 0.5s;
 }
+
+
+.imgCookie {
+    height: 64px;
+    width: 64px;
+}
