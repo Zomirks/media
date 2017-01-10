@@ -715,3 +715,73 @@ form .stars label.star-1:hover~span {
     color: #d65a3d;
     text-decoration: none;
 }
+
+.titreCommentaire {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: url(../images/lines.jpg) repeat-x bottom;
+}
+
+.commentaire {
+    display: flex;
+    background: url(../images/lines.jpg) repeat-x bottom;
+    width: 100%;
+}
+
+.avatar {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.commentaire p {
+    margin-top: 20px;
+    width: 80%;
+}
+.commentaireAuteur {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.commentaireAuteur p {
+    margin: auto;
+    font-size: 16pt;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.formCommentaire {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formCommentaire form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+label {
+    margin-top: 30px;
+}
+
+input {
+    height: 20px;
+    background-color: #e7e2cf;
+    border-color:#d65a3d;
+    border-radius: 10px;
+}
+
+#commentaire {
+    height: 50px;
+}
+#submit {
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    background-color:#d65a3d;
+}
