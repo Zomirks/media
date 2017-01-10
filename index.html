@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<title>Droit d'Image</title>
     <meta charset="UTF-8">
@@ -28,7 +27,6 @@
 	</script>
     <!-- tarteaucitron -->
     <script type="text/javascript" src="/tarteaucitron/tarteaucitron.js"></script>
-
     <script type="text/javascript">
         tarteaucitron.init({
             "hashtag": "#tarteaucitron", /* Ouverture automatique du panel avec le hashtag */
@@ -61,9 +59,7 @@
         tarteaucitron.user.sharethisPublisher = '02b7aafb-4cf5-4ea1-ae93-45d8d4cfd3bf';
         (tarteaucitron.job = tarteaucitron.job || []).push('sharethis');
     </script>
-
 </head>
-
 <body itemscope itemtype="https://schema.org/Article">
     <meta itemprop="mainEntityOfPage" content="True" /> <!-- l'article est le contenu principal de la page -->
 	<div class="header-wrap">
@@ -83,7 +79,11 @@
 	<div class="clear"></div>
 	<div class="banner-wrap">
         <a href="javascript:tarteaucitron.userInterface.openPanel();">Gestion des cookies</a>
-		<div class="banner"> <img src="images/banner1.jpg" alt="banner" /> </div>
+		<div class="banner" itemprop="image" itemscope itemtype="https://schema.org/ImageObject"> 
+        	<img itemprop="url"  src="images/banner1.jpg" alt="banner" /> 
+            <meta itemprop="width" content="960"/>
+            <meta itemprop="height" content="330"/>
+       </div>
 	</div>
 	<!---banner--->
 	<div class="page-wrap">
@@ -96,7 +96,6 @@
 			<div class="content"> <img src="images/image1.jpg" alt="" />
 				<p>En France, chaque individu a droit à informer et s’informer, cela en est même un droit de valeur constitutionnelle. Mais ce droit à ses limites, celui du respect de la vie privée. Mais le fait est que le <strong>droit d’information</strong> est plus
 					souvent utilisé sans tenir compte du <strong>droit à l’image</strong> ce qui en résulte par des affaires judiciaires. Afin de pallier à tout manquement à ces lois, nous allons vous les expliquer. Car nul n’est censé ignorer la Loi.
-
 					<br />
 					<br />
 				</p>
@@ -128,12 +127,9 @@
 				<p>Le contrat de cession de droits d'auteur est le contrat par lequel l'auteur d'une oeuvre cède ses droits d'exploitation à une autre personne, appelée le cessionnaire. Cela est bien sur à titre exclusif. Le cessionnaire est alors titulaire des droits
 					cédés sur l'oeuvre et peut l'exploiter selon les termes du contrat.</p>
 				<p>Comment on peut utiliser un contrat de cession de droits ?</p>
-
-
 				<div class="button floatLeft"><a href="cession_droit.html">En Savoir plus...</a></div>
 			</div>
 		</div>
-
 	</div>
 	<!---page-wrap-end--->
 	<div class="footer-wrap">
@@ -185,5 +181,4 @@
 		</div>
 	</div>
 </body>
-
 </html>
