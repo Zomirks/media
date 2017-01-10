@@ -551,17 +551,23 @@ STARS NOTES
 
 .notation {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 
 .noteMaximale, .noteMoyenne, .notationVisiteur {
     display: flex;
     flex-direction: row-reverse;
+    flex-direction: column;
 }
 
 .noteMaximale p, .noteMoyenne p, .notationVisiteur p {
     line-height: 30px;
-    margin: 2px 10px 0px 0px;
+    padding-bottom: 0!important;
+}
+
+.noteMaximale form, .noteMoyenne form, .notationVisiteur form {
+    margin-top: -10px;
 }
 
 .noteMaxStars, .noteMoyenneStars, form .stars {
@@ -674,4 +680,38 @@ form .stars label.star-1:hover~span {
 .imgCookie {
     height: 64px;
     width: 64px;
+}
+
+.social {
+    display: flex;
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.autorSocial {
+    display: flex;
+}
+
+.auteur {
+    display: flex;
+    width: 70%;
+}
+
+.ImgAuteur {
+    height: 150px;
+    width: 150px;
+}
+
+.auteurInfo {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lienAuteur {
+    margin-bottom: 20px;
+    color: #d65a3d;
+    text-decoration: none;
 }
