@@ -8,22 +8,20 @@
 
 <url>
   <loc>http://droit-image.net/</loc>
-  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://droit-image.net/index.html</loc>
-  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://droit-image.net/droit_image.html</loc>
-  <changefreq>daily</changefreq>
+  <loc>http://droit-image.net/droit-image.html</loc>
 </url>
 <url>
   <loc>http://droit-image.net/panorama.html</loc>
-  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://droit-image.net/cession_droit.html</loc>
-  <changefreq>daily</changefreq>
+  <loc>http://droit-image.net/cession-droit.html</loc>
+</url>
+<url>
+  <loc>http://droit-image.net/mentions-legales.html</loc>
 </url>
 </urlset>
